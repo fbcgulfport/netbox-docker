@@ -1,6 +1,6 @@
 # FBC Gulfport NetBox Docker Fork
 
-This fork is intended to build the FBC Gulfport NetBox fork with native AV/broadcast `Interface.type` choices. The NetBox core fork is `fbcgulfport/netbox`; it adds interface types for SDI, HDMI, XLR, DMX, Speakon, timecode, genlock/reference, 1/4" and 3.5mm headphone/TRS, and RS-422 endpoints.
+For future Codex/agent work: this fork is intended to build the FBC Gulfport NetBox fork with native AV/broadcast `Interface.type` choices. The NetBox core fork is `fbcgulfport/netbox`; it adds interface types for SDI, HDMI, XLR, DMX, Speakon, timecode, genlock/reference, 1/4" and 3.5mm headphone/TRS, and RS-422 endpoints.
 
 This Docker fork defaults `build.sh` to `SRC_ORG=fbcgulfport` and `SRC_REPO=netbox`, so build the custom image from this repo with:
 

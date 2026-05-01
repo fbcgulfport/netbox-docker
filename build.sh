@@ -20,7 +20,7 @@ branch       The branch or tag to build. Required.
 ${_BOLD}You can use the following ENV variables to customize the build:${_CLEAR}
 
 SRC_ORG     Which fork of netbox to use (i.e. github.com/\${SRC_ORG}/\${SRC_REPO}).
-            ${_GREEN}Default:${_CLEAR} netbox-community
+            ${_GREEN}Default:${_CLEAR} fbcgulfport
             
 SRC_REPO    The name of the repository to use (i.e. github.com/\${SRC_ORG}/\${SRC_REPO}).
             ${_GREEN}Default:${_CLEAR} netbox
@@ -159,7 +159,7 @@ gh_echo "::group::⤵️ Fetching the NetBox source code"
 ###
 # Variables for fetching the NetBox source
 ###
-SRC_ORG="${SRC_ORG-netbox-community}"
+SRC_ORG="${SRC_ORG-fbcgulfport}"
 SRC_REPO="${SRC_REPO-netbox}"
 NETBOX_BRANCH="${1}"
 URL="${URL-https://github.com/${SRC_ORG}/${SRC_REPO}.git}"

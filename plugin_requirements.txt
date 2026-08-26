@@ -1,0 +1,4 @@
+netbox-topology-views==4.5.1
+netbox-interface-synchronization==4.5.8
+netboxlabs-netbox-branching==1.0.2
+netbox-unifi-sync==0.3.23
